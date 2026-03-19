@@ -13,8 +13,11 @@ git checkout -b agent-teams
 
 **2. Blueprint-Setup ins Projekt kopieren:**
 ```bash
+cp -r .ai ./
 cp -r .claudeTraining/agents/ .claude/agents/
 cp -r .claudeTraining/skills/ .claude/skills/
+cp -r .claudeTraining/templates/ .claude/templates/
+cp -r .claudeTraining/workflows/ .claude/workflows/
 cp .claudeTraining/CLAUDE.md .claude/CLAUDE.md
 ```
 
