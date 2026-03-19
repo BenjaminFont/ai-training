@@ -1,7 +1,5 @@
 ---
-paths:
-  - "**/*.ts"
-  - "**/*.java"
+apply: always
 ---
 
 # Code Design Principles
